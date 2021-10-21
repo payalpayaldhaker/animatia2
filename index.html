@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+            <style> 
+            .parent{ 
+                width: 400px;
+                height: 400px;
+               
+                margin:  100px auto;
+                position: relative;
+                animation:floweranimation 1s linear 0s infinite ;
+            }
+            @keyframes floweranimation {
+                0%{ 
+                    transform: rotateZ(0deg);
+                }
+                100%{ 
+                    transform: rotateZ(359deg);
+                }
+                
+            }
+            .parent >div{ 
+                position: absolute;
+                left: 0px;
+                top: 0px;
+            }
+            .common{ 
+                width: 200px;
+                height: 200px;
+                border-bottom-left-radius: 200px;
+                border-top-right-radius: 200px;
+               
+                transform-origin: right bottom;
+                transform: rotateZ(0deg);
+                transform-origin: right bottom;
+                opacity: 0.5;
+            }
+            .leaf1{ 
+               
+                background-color: orange;
+               
+               
+                transform: rotateZ(0deg);
+            }
+            .leaf2{ 
+               
+                background-color: blue;
+                
+                
+                
+                transform: rotateZ(11.25deg);
+               
+            }
+            .leaf3{ 
+               
+                background-color: darkgoldenrod;
+               
+                
+                
+                transform: rotateZ(33.75deg);
+               
+            }
+            .leaf4{ 
+               
+               background-color: darkorchid;
+              
+               
+               
+               transform: rotateZ(44deg);
+              
+           }
+           .leaf5{ 
+               
+               background-color: darkred;
+              
+               
+               
+               transform: rotateZ(55.25deg);
+              
+           }
+           .leaf6{ 
+               
+               background-color: deeppink;
+              
+               
+               
+               transform: rotateZ(66.50deg);
+              
+           }
+           .leaf7{ 
+               
+               background-color: red;
+              
+               
+               
+               transform: rotateZ(77.75deg);
+              
+           }
+           .leaf8{ 
+               
+               background-color: darkslategray;
+              
+               
+               
+               transform: rotateZ(88deg);
+              
+           }
+           .leaf9{ 
+               
+               background-color: dodgerblue;
+              
+               
+               
+               transform: rotateZ(99.25deg);
+              
+           }.leaf10{ 
+               
+               background-color: yellowgreen;
+              
+               
+               
+               transform: rotateZ(110.50deg);
+              
+           }
+           .leaf11{ 
+               
+               background-color: red;
+              
+               
+               
+               transform: rotateZ(121.75deg);
+              
+           }
+           .leaf12{ 
+               
+               background-color: rebeccapurple;
+              
+               
+               
+               transform: rotateZ(132.0deg);
+              
+           }
+           .leaf13{ 
+               
+               background-color: teal;
+              
+               
+               
+               transform: rotateZ(143.25deg);
+              
+           }
+           .leaf14{ 
+               
+               background-color: green;
+              
+               
+               
+               transform: rotateZ(154.50deg);
+              
+           }
+           .leaf15{ 
+               
+               background-color: yellow;
+              
+               
+               
+               transform: rotateZ(165.75deg);
+              
+           }
+           .leaf16{ 
+               
+               background-color: orangered;
+              
+               
+               
+               transform: rotateZ(176.0deg);
+              
+           }
+           .leaf17{ 
+               
+               background-color: forestgreen;
+              
+               
+               
+               transform: rotateZ(187.25deg);
+              
+           }
+           .leaf18{ 
+               
+               background-color: forestgreen;
+              
+               
+               
+               transform: rotateZ(198.50deg);
+              
+           }
+           .leaf19{ 
+               
+               background-color: purple;
+              
+               
+               
+               transform: rotateZ(209.75deg);
+              
+           }
+           .leaf20{ 
+               
+               background-color: yellowgreen;
+              
+               
+               
+               transform: rotateZ(220.0deg);
+              
+           }.leaf21{ 
+               
+               background-color: gray;
+              
+               
+               
+               transform: rotateZ(231.25deg);
+              
+           }
+           .leaf22{ 
+               
+               background-color: gold;
+              
+               
+               
+               transform: rotateZ(242.50deg);
+              
+           }
+           .leaf23{ 
+               
+               background-color: green;
+              
+               
+               
+               transform: rotateZ(253.75deg);
+              
+           }
+           .leaf24{ 
+               
+               background-color: lawngreen;
+              
+               
+               
+               transform: rotateZ(264.0deg);
+              
+           }
+           .leaf25{ 
+               
+               background-color: navy;
+              
+               
+               
+               transform: rotateZ(275.25deg);
+              
+           }
+           .leaf26{ 
+               
+               background-color: lime;
+              
+               
+               
+               transform: rotateZ(286.50deg);
+              
+           }
+           .leaf27{ 
+               
+               background-color: red;
+              
+               
+               
+               transform: rotateZ(298.75deg);
+              
+           }
+           .leaf28{ 
+               
+               background-color: lightsalmon;
+              
+               
+               
+               transform: rotateZ(309.0deg);
+              
+           }
+           .leaf29{ 
+               
+               background-color: red;
+              
+               
+               
+               transform: rotateZ(320.25deg);
+              
+           }
+           .leaf30{ 
+               
+               background-color: olive;
+              
+               
+               
+               transform: rotateZ(331.50deg);
+              
+           }
+           .leaf31{ 
+               
+               background-color: orchid;
+              
+               
+               
+               transform: rotateZ(343.75deg);
+              
+           }
+           .leaf32{ 
+               
+               background-color: olivedrab;
+              
+               
+               
+               transform: rotateZ(354.0deg);
+              
+           }
+               
+               
+            
+        
+
+            </style>
+    </head>
+    <body>  
+            <div class="parent">   
+                <div class="leaf1 common"></div>
+                <div class="leaf2 common "></div>
+                <div class="leaf3 common"></div>
+                <div class="leaf4 common"></div>
+                <div class="leaf5 common"></div>
+                <div class="leaf6 common"></div>
+                <div class="leaf7 common"></div>
+                <div class="leaf8 common"></div>
+                <div class="leaf9 common"></div>
+                <div class="leaf10 common"></div>
+                <div class="leaf11 common"></div>
+                <div class="leaf12 common"></div>
+                <div class="leaf13 common"></div>
+                <div class="leaf14 common"></div>
+                <div class="leaf15 common"></div>
+                <div class="leaf16 common"></div>
+                <div class="leaf17 common"></div>
+                <div class="leaf18 common"></div>
+                <div class="leaf19 common"></div>
+                <div class="leaf20 common"></div>
+                <div class="leaf21 common"></div>
+                <div class="leaf22 common"></div>
+                <div class="leaf23 common"></div>
+                <div class="leaf24 common"></div>
+                <div class="leaf25 common"></div>
+                <div class="leaf26 common"></div>
+                <div class="leaf27 common"></div>
+                <div class="leaf28 common"></div>
+                <div class="leaf29 common"></div>
+                <div class="leaf30 common"></div>
+                <div class="leaf31 common"></div>
+                <div class="leaf32 common"></div>
+
+            </div>
+            <h1>Made by Payal Dhakad</h1>
+    </body>
+    </html>
